@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<style>
+    body {
+        background-color:  #FFFFFF;
+        border-style: solid;
+        border-color: #2F3C73;
+        border-width: 7px;
+        margin: 0px;
+    }
+    h1 {
+        color: #2F3C73;
+        text-align :left;
+        height: 2px;
+        width: 500px;
+        font-size: 10px;
+        font-family: 'Palatino' , Georgia, Times, sans-serif;
+        margin: 9px;
+    }
+    #new_word {
+      text-align: center;
+      font-family: 'Palatino' , Georgia, Times, sans-serif;
+      font-weight: bold;
+      font-size: 50px;
+      height: 65px;
+      color: #2F3C73;
+    }
+    div.word_desc {
+      height: 20px;
+      font-size: 14px;
+      font-weight: 600;
+      font-family: 'Palatino' , Georgia, Times, sans-serif;
+      color: #2F3C73;
+    }
+    #definition {
+      word-wrap: break-word;
+      font-size: 14px;
+      font-family: 'Palatino' , Georgia, Times, sans-serif;
+      margin: 20px;
+      color: #2F3C73;
+    }
+
+    
+</style>
+  <head>
+    <title>Word of the Day</title>
+    <script src="jquery.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+      <h1>Word of the Day</h1>
+      <img src="icon.png" alt="logo" height="20" width="20" style="position: absolute; top: 13px; left: 490px">
+    <div id="new_word"> </div> 
+    <div class="word_desc" style="text-align: center">
+        <span id="word_type" style="font-style: italic"></span>
+        <span> || </span>
+        <span id="pronun"></span>
+    </div>
+    <div id="definition">
+
+    </div>
+  </body>
+</html>
